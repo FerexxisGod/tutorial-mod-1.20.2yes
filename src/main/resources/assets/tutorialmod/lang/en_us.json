@@ -1,0 +1,9 @@
+{
+  "item.tutorialmod.ruby": "Ruby",
+  "item.tutorialmod.ruby_raw": "Raw Ruby",
+
+  "block.tutorialmod.ruby_block": "Ruby Block",
+  "block.tutorialmod.raw_ruby_block": "Ruby Ore",
+
+  "itemgroup.ruby": "Ruby Group"
+}

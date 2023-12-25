@@ -1,5 +1,8 @@
 package net.anuj.tutorialmod;
 
+import net.anuj.tutorialmod.block.ModBlocks;
+import net.anuj.tutorialmod.item.ModItemGroups;
+import net.anuj.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +15,9 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 
 
